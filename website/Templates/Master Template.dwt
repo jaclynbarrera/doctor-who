@@ -1,12 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<!-- TemplateBeginEditable name="doctitle" -->
-<title>Untitled Document</title>
-<!-- TemplateEndEditable -->
-<!-- TemplateBeginEditable name="head" -->
-<!-- TemplateEndEditable -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>The Doctor Who Website</title>
+	<!-- TemplateEndEditable -->
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+	<!-- TemplateParam name="The Doctor Secondary Menu" type="boolean" value="false" -->
+	<!-- TemplateParam name="Companions Secondary Menu" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -18,8 +20,29 @@
     <td colspan="2">[Banner]</td>
   </tr>
   <tr>
-    <td>[Secondary Navigation]</td>
-    <td>[Content]</td>
+    <td height="80"><!-- TemplateBeginIf cond="_document['The Doctor Secondary Menu']" -->
+    	<table>
+    		<tr>
+    			<td width="149">The First Doctor</td>
+    			</tr>
+    		<tr>
+    			<td>The Second Doctor</td>
+    			</tr>
+    		<tr>
+    			<td>The Third Doctor</td>
+    			</tr>
+    		</table>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Secondary Menu']" -->
+    <table>
+    	<tr>
+    		<td>Rose Tyler</td>
+    		</tr>
+    	<tr>
+    		<td>Amy Pond</td>
+    		</tr>
+    	</table>
+    <!-- TemplateEndIf --></td>
+    <td><!-- TemplateBeginEditable name="Content Area" -->[Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
 </body>
