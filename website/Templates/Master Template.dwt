@@ -25,75 +25,75 @@
 					<table>
 						<!-- TemplateBeginIf cond="_document['The Doctors']" -->
 						<tr>
-							<td width="149">William Hartnell</td>
+							<td width="149"><a href="../the-doctors/the-first-doctor.html">The First Doctor</a></td>
 						</tr>
 						<tr>
-							<td>Patrick Troughton</td>
+							<td>The Second Doctor</td>
 						</tr>
 						<tr>
-							<td>Jon Pertwee</td>
+							<td>The Third Doctor</td>
 						</tr>
 						<tr>
-							<td>Tom Baker</td>
+							<td>The Fourth Doctor</td>
 						</tr>
 						<tr>
-							<td>Peter Davison</td>
+							<td>The Fifth Doctor</td>
 						</tr>
 						<tr>
-							<td>Colin Baker</td>
+							<td>The Sixth Doctor</td>
 						</tr>
 						<tr>
-							<td>Sylvester McCoy</td>
+							<td>The Seventh Doctor</td>
 						</tr>
 						<tr>
-							<td>Paul McGann</td>
+							<td>The Eight Doctor</td>
 						</tr>
 						<tr>
-							<td>Christopher Eccleston</td>
+							<td>The Ninth Doctor</td>
 						</tr>
 						<tr>
-							<td>David Tennant</td>
+							<td>The Tenth Doctor</td>
 						</tr>
 						<tr>
-							<td>Matt Smith</td>
+							<td>The Eleventh Doctor</td>
 						</tr>
 						<tr>
-							<td>Peter Capaldi</td>
+							<td>The Twelfth Doctor</td>
 						</tr>
 						<!-- TemplateEndIf -->
 					</table>
 					<table width="153" height="292">
 						<!-- TemplateBeginIf cond="_document['The Companions']" -->
 						<tr>
-							<td width="145">Rose Tyler</td>
+							<td width="145"><a href="../companions/rose-tyler.html">Rose Tyler</a></td>
 						</tr>
 						<tr>
-							<td height="26">Martha Jones</td>
+							<td height="26"><a href="../companions/martha-jones.html">Martha Jones</a></td>
 						</tr>
 						<tr>
-							<td>Jack Harkness</td>
+							<td><a href="../companions/jack-harkness.html">Jack Harkness</a></td>
 						</tr>
 						<tr>
-							<td height="43">Lady Christina de Souza</td>
+							<td height="43"><a href="../companions/lady-chrstina-de-souza.html">Lady Christina de Souza</a></td>
 						</tr>
 						<tr>
-							<td>Amy Pond</td>
+							<td><a href="../companions/amy-pond.html">Amy Pond</a></td>
 						</tr>
 						<tr>
-							<td>Rory Williams</td>
+							<td><a href="../companions/rory-williams.html">Rory Williams</a></td>
 						</tr>
 						<tr>
-							<td>River Song</td>
+							<td><a href="../companions/river-song-.html">River Song</a></td>
 						</tr>
 						<tr>
-							<td height="21">Clara Oswald</td>
+							<td height="21"><a href="../companions/clara-oswald.html">Clara Oswald</a></td>
 						</tr>
 						<!-- TemplateEndIf -->
 					</table>
 					<table>
 						<!-- TemplateBeginIf cond="_document['The Villains']" -->
 						<tr>
-							<td width="145">Daleks</td>
+							<td width="145"><a href="../villains/Daleks.html">Daleks</a></td>
 						</tr>
 						<tr>
 							<td>Cybermen</td>
@@ -113,7 +113,7 @@
 						<!-- TemplateEndIf -->
 					</table>
 				</td>
-				<td><!-- TemplateBeginEditable name="Content Area" -->[Content]<!-- TemplateEndEditable --></td>
+				<td><!-- TemplateBeginEditable name="Content Area" --><!-- TemplateEndEditable --></td>
 			</tr>
 		</table>
 	</body>
