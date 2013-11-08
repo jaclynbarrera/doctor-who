@@ -1,96 +1,120 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<!-- TemplateBeginEditable name="doctitle" -->
-	<title>The Doctor Who Website</title>
-	<!-- TemplateEndEditable -->
-	<!-- TemplateBeginEditable name="head" -->
-	<!-- TemplateEndEditable -->
-	<!-- TemplateParam name="The Doctor Secondary Menu" type="boolean" value="false" -->
-	<!-- TemplateParam name="Companions Secondary Menu" type="boolean" value="false" -->
-</head>
-
-<body>
-<table>
-  <tr>
-    <td colspan="2">[Primary Navigation]</td>
-  </tr>
-  <tr>
-    <td colspan="2">[Banner]</td>
-  </tr>
-  <tr>
-    <td height="80"><!-- TemplateBeginIf cond="_document['The Doctor Secondary Menu']" -->
-   	  <table>
-    		<tr>
-    			<td width="149">William Hartnell</td>
-		</tr>
-    		<tr>
-    			<td>Patrick Troughton</td>
-		</tr>
-    		<tr>
-    			<td>Jon Pertwee</td>
-		</tr>
-    		<tr>
-    		  <td>Tom Baker</td>
-  		  </tr>
-    		<tr>
-    		  <td>Peter Davison</td>
-  		  </tr>
-    		<tr>
-    		  <td>Colin Baker</td>
-  		  </tr>
-    		<tr>
-    		  <td>Sylvester McCoy</td>
-  		  </tr>
-    		<tr>
-    		  <td>Paul McGann</td>
-  		  </tr>
-    		<tr>
-    		  <td>Christopher Eccleston</td>
-  		  </tr>
-    		<tr>
-    		  <td>David Tennant</td>
-  		  </tr>
-    		<tr>
-    		  <td>Matt Smith</td>
-  		  </tr>
-    		<tr>
-    		  <td>Peter Capaldi</td>
-  		  </tr>
-    		</table>
-    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Companions Secondary Menu']" -->
-    <table width="153" height="90">
-    	<tr>
-    		<td width="145">Rose Tyler</td>
-    		</tr>
-    	<tr>
-    		<td>Martha Jones</td>
-    		</tr>
-    	<tr>
-    	  <td>Jack Harkness</td>
-  	  </tr>
-    	<tr>
-    	  <td>Lady Christina de Souza</td>
-  	  </tr>
-    	<tr>
-    	  <td>Amy Pond</td>
-  	  </tr>
-    	<tr>
-    	  <td>Rory Williams</td>
-  	  </tr>
-    	<tr>
-    	  <td>River Song</td>
-  	  </tr>
-    	<tr>
-    	  <td>Clara Oswald</td>
-  	  </tr>
-    	</table>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <!-- TemplateEndIf --></td>
-    <td><!-- TemplateBeginEditable name="Content Area" -->[Content]<!-- TemplateEndEditable --></td>
-  </tr>
-</table>
-</body>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!-- TemplateBeginEditable name="doctitle" -->
+		<title>The Doctor Who Website</title>
+		<!-- TemplateEndEditable -->
+		<!-- TemplateBeginEditable name="head" -->
+		<!-- TemplateEndEditable -->
+		<!-- TemplateParam name="The Doctors" type="boolean" value="false" -->
+		<!-- TemplateParam name="The Companions" type="boolean" value="false" -->
+		<!-- TemplateParam name="The Villains" type="boolean" value="false" -->
+	</head>
+	
+	<body>
+		<table>
+			<tr>
+				<td colspan="2">[Primary Navigation]</td>
+			</tr>
+			<tr>
+				<td colspan="2">[Banner]</td>
+			</tr>
+			<tr>
+				<td height="80">
+					<table>
+						<!-- TemplateBeginIf cond="_document['The Doctors']" -->
+						<tr>
+							<td width="149">William Hartnell</td>
+						</tr>
+						<tr>
+							<td>Patrick Troughton</td>
+						</tr>
+						<tr>
+							<td>Jon Pertwee</td>
+						</tr>
+						<tr>
+							<td>Tom Baker</td>
+						</tr>
+						<tr>
+							<td>Peter Davison</td>
+						</tr>
+						<tr>
+							<td>Colin Baker</td>
+						</tr>
+						<tr>
+							<td>Sylvester McCoy</td>
+						</tr>
+						<tr>
+							<td>Paul McGann</td>
+						</tr>
+						<tr>
+							<td>Christopher Eccleston</td>
+						</tr>
+						<tr>
+							<td>David Tennant</td>
+						</tr>
+						<tr>
+							<td>Matt Smith</td>
+						</tr>
+						<tr>
+							<td>Peter Capaldi</td>
+						</tr>
+						<!-- TemplateEndIf -->
+					</table>
+					<table width="153" height="292">
+						<!-- TemplateBeginIf cond="_document['The Companions']" -->
+						<tr>
+							<td width="145">Rose Tyler</td>
+						</tr>
+						<tr>
+							<td height="26">Martha Jones</td>
+						</tr>
+						<tr>
+							<td>Jack Harkness</td>
+						</tr>
+						<tr>
+							<td height="43">Lady Christina de Souza</td>
+						</tr>
+						<tr>
+							<td>Amy Pond</td>
+						</tr>
+						<tr>
+							<td>Rory Williams</td>
+						</tr>
+						<tr>
+							<td>River Song</td>
+						</tr>
+						<tr>
+							<td height="21">Clara Oswald</td>
+						</tr>
+						<!-- TemplateEndIf -->
+					</table>
+					<table>
+						<!-- TemplateBeginIf cond="_document['The Villains']" -->
+						<tr>
+							<td width="145">Daleks</td>
+						</tr>
+						<tr>
+							<td>Cybermen</td>
+						</tr>
+						<tr>
+							<td>The Master</td>
+						</tr>
+						<tr>
+							<td>Lady Cassandra</td>
+						</tr>
+						<tr>
+							<td>Davros</td>
+						</tr>
+						<tr>
+							<td>Weeping Angels</td>
+						</tr>
+						<!-- TemplateEndIf -->
+					</table>
+				</td>
+				<td><!-- TemplateBeginEditable name="Content Area" -->[Content]<!-- TemplateEndEditable --></td>
+			</tr>
+		</table>
+	</body>
 </html>
