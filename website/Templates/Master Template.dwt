@@ -15,13 +15,13 @@
 	<body>
 		<table>
 			<tr>
-				<td colspan="2">[Primary Navigation]</td>
+				<td colspan="2"><a href="../index.html">Home</a>  <a href="../the-doctors/index.html">The Doctors</a> <a href="../companions/index.html">The Companions</a> <a href="../villains/index.html">The Villains</a></td>
 			</tr>
 			<tr>
 				<td colspan="2">[Banner]</td>
 			</tr>
 			<tr>
-				<td height="80">
+				<td width="180" height="80">
 					<table>
 						<!-- TemplateBeginIf cond="_document['The Doctors']" -->
 						<tr>
@@ -113,7 +113,7 @@
 						<!-- TemplateEndIf -->
 					</table>
 				</td>
-				<td><!-- TemplateBeginEditable name="Content Area" --><!-- TemplateEndEditable --></td>
+				<td width="556"><!-- TemplateBeginEditable name="Content Area" --><!-- TemplateEndEditable --></td>
 			</tr>
 		</table>
 	</body>
