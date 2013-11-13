@@ -1,15 +1,16 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<!-- TemplateBeginEditable name="doctitle" -->
-		<title>The Doctor Who Website</title>
-		<!-- TemplateEndEditable -->
-		<!-- TemplateBeginEditable name="head" -->
-		<!-- TemplateEndEditable -->
-		<!-- TemplateParam name="The Doctors" type="boolean" value="false" -->
-		<!-- TemplateParam name="The Companions" type="boolean" value="false" -->
-		<!-- TemplateParam name="The Villains" type="boolean" value="false" -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>The Doctor Who Website</title>
+	<!-- TemplateEndEditable -->
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+	<!-- TemplateParam name="The Doctors" type="boolean" value="false" -->
+	<!-- TemplateParam name="The Companions" type="boolean" value="false" -->
+	<!-- TemplateParam name="The Villains" type="boolean" value="false" -->
+	<!-- TemplateParam name="Home Page Secondary Nav" type="boolean" value="false" -->
 	</head>
 	
 	<body>
@@ -21,7 +22,7 @@
 				<td colspan="2">[Banner]</td>
 			</tr>
 			<tr>
-				<td width="180" height="80">
+			  <td width="180" height="80">
 					<table>
 						<!-- TemplateBeginIf cond="_document['The Doctors']" -->
 						<tr>
@@ -62,7 +63,7 @@
 						</tr>
 						<!-- TemplateEndIf -->
 					</table>
-					<table width="153" height="292">
+				<table width="153" height="292">
 						<!-- TemplateBeginIf cond="_document['The Companions']" -->
 						<tr>
 							<td width="145"><a href="../companions/rose-tyler.html">Rose Tyler</a></td>
@@ -90,7 +91,7 @@
 						</tr>
 						<!-- TemplateEndIf -->
 					</table>
-					<table>
+				<table>
 						<!-- TemplateBeginIf cond="_document['The Villains']" -->
 						<tr>
 							<td width="145"><a href="../villains/daleks.html">Daleks</a></td>
@@ -112,7 +113,19 @@
 						</tr>
 						<!-- TemplateEndIf -->
 					</table>
-				</td>
+				<!-- TemplateBeginIf cond="_document['Home Page Secondary Nav']" -->
+				<table width="149" border="1">
+				  <tr>
+				    <td width="139"><a href="../Home Pages/about-doctor-who.html">About Doctor Who</a></td>
+			      </tr>
+				  <tr>
+				    <td><a href="../Home Pages/about-this-site.html">About this Site</a></td>
+			      </tr>
+				  <tr>
+				    <td><a href="../Home Pages/about-this-class.html">About this Class</a></td>
+			      </tr>
+			    </table>
+				<!-- TemplateEndIf --></td>
 				<td width="556"><!-- TemplateBeginEditable name="Content Area" --><!-- TemplateEndEditable --></td>
 			</tr>
 		</table>
