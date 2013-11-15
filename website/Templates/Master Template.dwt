@@ -11,6 +11,7 @@
 	<!-- TemplateParam name="The Companions" type="boolean" value="false" -->
 	<!-- TemplateParam name="The Villains" type="boolean" value="false" -->
 	<!-- TemplateParam name="Home Page Secondary Nav" type="boolean" value="false" -->
+	<link href="../styles.css" rel="stylesheet" type="text/css">
 	</head>
 	
 	<body>
@@ -19,7 +20,7 @@
 				<td colspan="2"><a href="../index.html">Home</a>  <a href="../the-doctors/index.html">The Doctors</a> <a href="../companions/index.html">The Companions</a> <a href="../villains/index.html">The Villains</a></td>
 			</tr>
 			<tr>
-				<td colspan="2">[Banner]</td>
+				<td colspan="2"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
 			</tr>
 			<tr>
 			  <td width="180" height="80">
@@ -126,8 +127,32 @@
 			      </tr>
 			    </table>
 				<!-- TemplateEndIf --></td>
-				<td width="556"><!-- TemplateBeginEditable name="Content Area" --><!-- TemplateEndEditable --></td>
-			</tr>
+                
+       
+       
+       
+       
+       
+       
+       
+                        
+                        <td width="556">
+                        	<div class="doctor-who-content">
+								<!-- TemplateBeginEditable name="Content Area" -->
+                          	  [Content Goes Here!]
+                            <!-- TemplateEndEditable -->
+                           </div>
+                        </td>
+		
+        
+        
+        
+        
+        
+        
+        
+        
+        	</tr>
 		</table>
 	</body>
 </html>
