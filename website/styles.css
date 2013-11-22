@@ -1,4 +1,31 @@
 .doctor-who-content img
 	{
-		float: left;	
+	float: left;
+	margin-right: 50px;
+	margin-left: 0px;
+	margin-bottom: 35px;
+	}.wrapper {
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	background-color: #1C1C1C;
+}
+td {
+	background-color: #A0ACB9;
+	vertical-align: top;
+	text-align: left;
 	}
+.doctor-who-content p {
+	padding-right: 0px;
+	line-height: 30px;
+}
+.doctor-who-content {
+	background-color: #DADEE3;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 25px;
+}

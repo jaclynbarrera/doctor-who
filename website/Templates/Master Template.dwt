@@ -15,144 +15,146 @@
 	</head>
 	
 	<body>
-		<table>
-			<tr>
-				<td colspan="2"><a href="../index.html">Home</a>  <a href="../the-doctors/index.html">The Doctors</a> <a href="../companions/index.html">The Companions</a> <a href="../villains/index.html">The Villains</a></td>
-			</tr>
-			<tr>
-				<td colspan="2"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
-			</tr>
-			<tr>
-			  <td width="180" height="80">
-					<table>
-						<!-- TemplateBeginIf cond="_document['The Doctors']" -->
-						<tr>
-							<td width="149"><a href="../the-doctors/the-first-doctor.html">The First Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-second-doctor.html">The Second Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-third-doctor.html">The Third Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-fourth-doctor.html">The Fourth Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-fifth-doctor.html">The Fifth Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-sixth-doctor.html">The Sixth Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-seventh-doctor.html">The Seventh Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-eighth-doctor.html">The Eight Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-ninth-doctor.html">The Ninth Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-tenth-doctor.html">The Tenth Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-eleventh-doctor.html">The Eleventh Doctor</a></td>
-						</tr>
-						<tr>
-							<td><a href="../the-doctors/the-twelfth-doctor.html">The Twelfth Doctor</a></td>
-						</tr>
-						<!-- TemplateEndIf -->
-					</table>
-				<table width="153" height="292">
-						<!-- TemplateBeginIf cond="_document['The Companions']" -->
-						<tr>
-							<td width="145"><a href="../companions/rose-tyler.html">Rose Tyler</a></td>
-						</tr>
-						<tr>
-							<td height="26"><a href="../companions/martha-jones.html">Martha Jones</a></td>
-						</tr>
-						<tr>
-							<td><a href="../companions/jack-harkness.html">Jack Harkness</a></td>
-						</tr>
-						<tr>
-							<td height="43"><a href="../companions/lady-chrstina-de-souza.html">Lady Christina de Souza</a></td>
-						</tr>
-						<tr>
-							<td><a href="../companions/amy-pond.html">Amy Pond</a></td>
-						</tr>
-						<tr>
-							<td><a href="../companions/rory-williams.html">Rory Williams</a></td>
-						</tr>
-						<tr>
-							<td><a href="../companions/river-song-.html">River Song</a></td>
-						</tr>
-						<tr>
-							<td height="21"><a href="../companions/clara-oswald.html">Clara Oswald</a></td>
-						</tr>
-						<!-- TemplateEndIf -->
-					</table>
-				<table>
-						<!-- TemplateBeginIf cond="_document['The Villains']" -->
-						<tr>
-							<td width="145"><a href="../villains/daleks.html">Daleks</a></td>
-						</tr>
-						<tr>
-							<td><a href="../villains/cybermen.html">Cybermen</a></td>
-						</tr>
-						<tr>
-							<td><a href="../villains/the-master.html">The Master</a></td>
-						</tr>
-						<tr>
-							<td><a href="../villains/lady-cassandra.html">Lady Cassandra</a></td>
-						</tr>
-						<tr>
-							<td><a href="../villains/davros.html">Davros</a></td>
-						</tr>
-						<tr>
-							<td><a href="../villains/weeping-angels.html">Weeping Angels</a></td>
-						</tr>
-						<!-- TemplateEndIf -->
-					</table>
-				<!-- TemplateBeginIf cond="_document['Home Page Secondary Nav']" -->
-				<table width="149" border="1">
-				  <tr>
-				    <td width="139"><a href="../home-pages/about-doctor-who.html">About Doctor Who</a></td>
-			      </tr>
-				  <tr>
-				    <td><a href="../home-pages/about-this-site.html">About this Site</a></td>
-			      </tr>
-				  <tr>
-				    <td><a href="../home-pages/about-this-class.html">About this Class</a></td>
-			      </tr>
-			    </table>
-				<!-- TemplateEndIf --></td>
-                
-       
-       
-       
-       
-       
-       
-       
-                        
-                        <td width="556">
-                        	<div class="doctor-who-content">
-								<!-- TemplateBeginEditable name="Content Area" -->
-                          	  [Content Goes Here!]
-                            <!-- TemplateEndEditable -->
-                           </div>
-                        </td>
-		
-        
-        
-        
-        
-        
-        
-        
-        
-        	</tr>
-		</table>
+    <div class="wrapper">
+      <table width="950">
+        <tr>
+          <td colspan="2"><a href="../index.html">Home</a>  <a href="../the-doctors/index.html">The Doctors</a> <a href="../companions/index.html">The Companions</a> <a href="../villains/index.html">The Villains</a></td>
+          </tr>
+        <tr>
+          <td colspan="2"><!-- TemplateBeginEditable name="Banner" -->[Banner]<!-- TemplateEndEditable --></td>
+          </tr>
+        <tr>
+          <td width="155" height="80">
+            <table>
+              <!-- TemplateBeginIf cond="_document['The Doctors']" -->
+              <tr>
+                  <td width="149"><a href="../the-doctors/the-first-doctor.html">The First Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-second-doctor.html">The Second Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-third-doctor.html">The Third Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-fourth-doctor.html">The Fourth Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-fifth-doctor.html">The Fifth Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-sixth-doctor.html">The Sixth Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-seventh-doctor.html">The Seventh Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-eighth-doctor.html">The Eight Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-ninth-doctor.html">The Ninth Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-tenth-doctor.html">The Tenth Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-eleventh-doctor.html">The Eleventh Doctor</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../the-doctors/the-twelfth-doctor.html">The Twelfth Doctor</a></td>
+              </tr>
+              <!-- TemplateEndIf -->
+              </table>
+            <table height="290">
+              <!-- TemplateBeginIf cond="_document['The Companions']" -->
+              <tr>
+                  <td width="145"><a href="../companions/rose-tyler.html">Rose Tyler</a></td>
+              </tr>
+              <tr>
+                  <td height="26"><a href="../companions/martha-jones.html">Martha Jones</a></td>
+              </tr>
+              <tr>
+                  <td height="34"><a href="../companions/jack-harkness.html">Jack Harkness</a></td>
+              </tr>
+              <tr>
+                  <td height="43"><a href="../companions/lady-chrstina-de-souza.html">Lady Christina de Souza</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../companions/amy-pond.html">Amy Pond</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../companions/rory-williams.html">Rory Williams</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../companions/river-song-.html">River Song</a></td>
+              </tr>
+              <tr>
+                  <td height="21"><a href="../companions/clara-oswald.html">Clara Oswald</a></td>
+              </tr>
+              <!-- TemplateEndIf -->
+              </table>
+            <table>
+              <!-- TemplateBeginIf cond="_document['The Villains']" -->
+              <tr>
+                  <td width="145"><a href="../villains/daleks.html">Daleks</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../villains/cybermen.html">Cybermen</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../villains/the-master.html">The Master</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../villains/lady-cassandra.html">Lady Cassandra</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../villains/davros.html">Davros</a></td>
+              </tr>
+              <tr>
+                  <td><a href="../villains/weeping-angels.html">Weeping Angels</a></td>
+              </tr>
+              <!-- TemplateEndIf -->
+              </table>
+            <!-- TemplateBeginIf cond="_document['Home Page Secondary Nav']" -->
+            <table border="0">
+              <tr>
+                <td width="139"><a href="../home-pages/about-doctor-who.html">About Doctor Who</a></td>
+              </tr>
+              <tr>
+                <td><a href="../home-pages/about-this-site.html">About this Site</a></td>
+              </tr>
+              <tr>
+                <td><a href="../home-pages/about-this-class.html">About this Class</a></td>
+              </tr>
+            </table>
+            <!-- TemplateEndIf --></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <td width="783">
+            <div class="doctor-who-content">
+              <!-- TemplateBeginEditable name="Content Area" -->
+              [Content Goes Here!]
+              <!-- TemplateEndEditable -->
+             </div>
+            </td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          </tr>
+        </table>
+    </div>
 	</body>
 </html>
